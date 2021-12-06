@@ -46,7 +46,7 @@ class _DemoAppState extends State<DemoApp> {
           decoration: BoxDecoration(
               color: Colors.white,
               border: Border.all(color: Colors.black26),
-              boxShadow: [
+              boxShadow: const [
                 BoxShadow(color: Colors.black26, spreadRadius: 2, blurRadius: 2)
               ]),
           child: Column(
